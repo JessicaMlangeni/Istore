@@ -78,6 +78,7 @@ export default function Bag() {
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <p style={{ fontSize: 13, fontWeight: 600, color: '#111', margin: '0 0 2px' }}>{item.name}</p>
                   <p style={{ fontSize: 11, color: '#888', margin: '0 0 6px' }}>{item.brand}</p>
+              
 
                   {/* Qty stepper */}
                   <div style={{ display: 'flex', alignItems: 'center', gap: 0, border: '1px solid #e8e8e8', borderRadius: 6, overflow: 'hidden', width: 'fit-content' }}>

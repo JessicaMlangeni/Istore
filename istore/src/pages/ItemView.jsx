@@ -41,7 +41,7 @@ export default function ItemView() {
 
       {/* ── LEFT SIDEBAR ── */}
       <aside style={{ width: 52, background: '#fff', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 16, flexShrink: 0 }}>
-        <div style={{ width: 28, height: 28, background: '#e94560', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16 }}>
+        <div style={{ width: 28, height: 28, background: '#161515ff', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16 }}>
           <span style={{ color: '#fff', fontSize: 14, fontWeight: 700 }}>S</span>
         </div>
         {[
@@ -50,7 +50,7 @@ export default function ItemView() {
           { icon: '♡', label: 'Wishlist' },
           { icon: '⊙', label: 'Settings' },
         ].map((item) => (
-          <div key={item.label} title={item.label} style={{ width: 36, height: 36, borderRadius: 8, background: item.active ? '#e94560' : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: item.active ? '#fff' : '#888', fontSize: 16, marginBottom: 4 }}>
+          <div key={item.label} title={item.label} style={{ width: 36, height: 36, borderRadius: 8, background: item.active ? '#060606ff' : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: item.active ? '#fff' : '#888', fontSize: 16, marginBottom: 4 }}>
             {item.icon}
           </div>
         ))}
@@ -122,7 +122,7 @@ export default function ItemView() {
               <button
                 onClick={handleAdd}
                 style={{
-                  background: '#e94560', color: '#fff',
+                  background: '#0c0c0cff', color: '#fff',
                   border: 'none', borderRadius: 8,
                   padding: '10px 28px', fontSize: 13,
                   fontWeight: 600, cursor: 'pointer',
